@@ -5,9 +5,13 @@ Chat will give the token to speak client by client. Client can only spoke if he 
 ### Getting started
 
 Class ChatServer have an object ChatProtocol whitch is the protocol of the server.
+
 Class ChatClient have an object ClientConnection whitch contain all methodes to connect to server, receive, send data from server.
+
 When you run ChatClient that will ask you to enter a nickname.
+
 Then if you are the only client connected you'll need to wait until an other client connect to the server.
+
 You can add many clients to the server and then you'll be able to speak turn by turn with them.
 
 Have fun :-)
